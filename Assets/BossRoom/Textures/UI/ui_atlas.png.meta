@@ -204,7 +204,7 @@ TextureImporter:
       213: 4245123048664881678
     second: Randomize_btn
   externalObjects: {}
-  serializedVersion: 11
+  serializedVersion: 12
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -225,6 +225,7 @@ TextureImporter:
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
+  ignoreMasterTextureLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -233,12 +234,12 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: -1
-    aniso: -1
-    mipBias: -100
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
     wrapU: 1
     wrapV: 1
-    wrapW: -1
+    wrapW: 0
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
@@ -263,6 +264,7 @@ TextureImporter:
   textureFormatSet: 0
   ignorePngGamma: 0
   applyGammaDecoding: 0
+  cookieLightType: 1
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
@@ -278,6 +280,30 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
     buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
@@ -1708,6 +1734,74 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
+    nameFileIdTable:
+      Archer1_port: 5640192408203338092
+      Archer1_port_gr: 5696742878408775525
+      Archer2_port: -9029998053583639580
+      Archer2_port_gr: 2744380354563675566
+      Archer_atk: -86643989335773967
+      Archer_skill1: -648594524209405482
+      Archer_skill2: 6176100515346893140
+      Archer_sym: 1717079544046338189
+      Archer_sym_gr: 7073677062034491875
+      Char_info_frame: 1591338921287218558
+      Emote_Cheer: 3560111661982681200
+      Emote_Dance: 8603631976929927373
+      Emote_Wave: -8245234026199263008
+      Emote_btn: -2825189325306509334
+      Emote_sit: 1866683241425957968
+      Healthbar: 3523798857041549916
+      Healthbar_bg: -6230944662187124400
+      Hero_bg: -5838772972447684026
+      Mage1_port: 6346260615161199150
+      Mage1_port_gr: 4005670855087808654
+      Mage2_port: 4576935326401567667
+      Mage2_port_gr: 8624814512637038460
+      Mage_atk: 4629006799232479851
+      Mage_skill1: 2812619407168195412
+      Mage_skill2: 653711104564485137
+      Mage_sym: -2491859787077907965
+      Mage_sym_gr: -7344767057168477063
+      P1tag: -3970085563453415241
+      P2tag: 6996385395546293261
+      P3tag: 148639981380011081
+      P4tag: 3791779539129539345
+      P5tag: 8196090401804752436
+      P6tag: 873408284726361166
+      P7tag: 2911624249718332368
+      P8tag: 5601394669076293956
+      PtagGlow: 472853806936191814
+      READY_btn_dn: -2500411682467835602
+      READY_btn_up: 5337500237541837453
+      Randomize_btn: 4245123048664881678
+      Rogue1_port: 2069804280958334919
+      Rogue1_port_gr: 984034368070534991
+      Rogue2_port: -4938242728237072438
+      Rogue2_port_gr: -5707360726647070374
+      Rogue_atk: -5674376572046109326
+      Rogue_skill1: -538430575990610775
+      Rogue_skill2: -1472494204491392689
+      Rogue_sym: 2282546892015797016
+      Rogue_sym_gr: -6047367336175053643
+      Tank1_port: -5935337979838524249
+      Tank1_port_gr: -1659684370060816601
+      Tank2_port: -6710387467502326305
+      Tank2_port_gr: -5275321764742424220
+      Tank_atk: 1540522687219259310
+      Tank_skill1: -4296359016634765864
+      Tank_skill2: -2388657405067991389
+      Tank_sym: -720397744737086521
+      Tank_sym_gr: -1584123350094214546
+      UI_elements_atlas_43: 4516325627489672080
+      UI_elements_atlas_hud_0: -6410841438199910071
+      UI_scroll_frame: -5774814192483064561
+      blank: 8879625777829338720
+      char_box_bg_selected: 5771264082969932389
+      char_box_glow: -6960129328031278604
+      char_box_ovr_avail: -6516341320500546185
+      char_box_ovr_selected: -2165419525758704481
+      char_select_title: 8070130267694257472
+      checkmark: -6209776649012284720
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
